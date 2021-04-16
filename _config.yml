@@ -102,4 +102,10 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  - type: git
+    repo: git@guanglundz.com:/var/repo/hexo.git
+    branch: master
+  - type: git
+    repo: https://github.com/guanglun/guanglun.github.io.git
+    branch: master    
+
