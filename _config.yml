@@ -4,7 +4,7 @@
 
 # Site
 title: 光轮小站
-subtitle: 笔记
+subtitle: 
 description: 一个使用hexo搭建的小站
 keywords:
 author: guanglun
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://guanglundz.com:8086
+url: https://guanglun.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,7 +105,7 @@ deploy:
   - type: git
     repo: git@guanglundz.com:/var/repo/hexo.git
     branch: master
-  - type: git
-    repo: https://github.com/guanglun/guanglun.github.io.git
-    branch: master    
+  # - type: git
+  #   repo: https://github.com/guanglun/guanglun.github.io.git
+  #   branch: master    
 
