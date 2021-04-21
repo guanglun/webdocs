@@ -10,18 +10,18 @@ $ ls /usr/bin/python*
 
 * 创建符号链接
 ```python
-update-alternatives  --install /usr/bin/python python /usr/bin/python2.7 1
-update-alternatives  --install /usr/bin/python python /usr/bin/python3.5 2
+sudo update-alternatives  --install /usr/bin/python python /usr/bin/python2.7 1
+sudo update-alternatives  --install /usr/bin/python python /usr/bin/python3.5 2
 ```
 
 * 切换Python版本
 ```python
-update-alternatives --config python
+sudo update-alternatives --config python
 ```
 
 * 列出Python版本
 ```python
-update-alternatives --list python
+sudo update-alternatives --list python
 ```
 
 * 查看Python版本
