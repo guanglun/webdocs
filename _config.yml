@@ -8,7 +8,7 @@ subtitle:
 description: 一个使用hexo搭建的小站
 keywords:
 author: guanglun
-language: cn
+language: en
 timezone: ''
 
 # URL
@@ -105,7 +105,7 @@ deploy:
   - type: git
     repo: git@guanglundz.com:/var/repo/hexo.git
     branch: master
-  # - type: git
-  #   repo: https://github.com/guanglun/guanglun.github.io.git
-  #   branch: master    
+  - type: git
+    repo: https://github.com/guanglun/guanglun.github.io.git
+    branch: master    
 
