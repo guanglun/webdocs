@@ -2,6 +2,7 @@
 title: git代理设置与取消
 date: 2021-04-21 15:54:43
 tags:
+categories: Git使用
 ---
 * git代理设置与取消
 ```python
