@@ -2,6 +2,7 @@
 title: ubuntu下python版本切换
 date: 2021-04-21 13:52:17
 tags:
+categories: Linux使用
 ---
 * 查看在usr目录里安装了几种不同版本的Python
 ```

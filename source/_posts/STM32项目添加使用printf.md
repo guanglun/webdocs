@@ -2,6 +2,7 @@
 title: STM32项目添加使用printf
 date: 2021-04-21 18:23:35
 tags:
+categories: STM32
 ---
 * 在串口文件中添加如下代码
 ```c
