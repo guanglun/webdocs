@@ -1,7 +1,7 @@
 ---
 title: .gitignore 不生效的解决方案
 date: 2021-04-24 11:27:09
-categories: Git使用
+categories: Git
 tags: 
     - git 
 ---

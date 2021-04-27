@@ -1,7 +1,7 @@
 ---
 title: git代理设置与取消
 date: 2021-04-21 15:54:43
-categories: Git使用
+categories: Git
 tags: 
     - git 
     - 代理

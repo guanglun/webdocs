@@ -7,8 +7,9 @@ tags:
     - c语言
     - Keil
 ---
-* 在串口文件中添加如下代码
-```c
+* 在串口文件中添加如下代码  
+
+```
 #include "stdio.h"
 #ifdef __GNUC__
   /* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf

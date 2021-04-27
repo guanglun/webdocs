@@ -1,7 +1,7 @@
 ---
 title: hexo使用笔记
 date: 2021-04-16 12:12:18
-categories: hexo使用
+categories: hexo
 tags: 
     - hexo 
 ---

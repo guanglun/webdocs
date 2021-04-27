@@ -1,7 +1,7 @@
 ---
 title: tar命令使用
 date: 2021-04-22 10:27:03
-categories: Linux使用
+categories: Linux
 tags: 
     - Linux 
     - 命令

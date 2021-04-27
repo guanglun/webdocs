@@ -1,7 +1,7 @@
 ---
 title: ubuntu下python版本切换
 date: 2021-04-21 13:52:17
-categories: Linux使用
+categories: Linux
 tags: 
     - Linux 
     - Python
