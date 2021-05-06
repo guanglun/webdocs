@@ -9,7 +9,7 @@ tags:
 ---
 * 在串口文件中添加如下代码  
 
-```
+```c
 #include "stdio.h"
 #ifdef __GNUC__
   /* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf
