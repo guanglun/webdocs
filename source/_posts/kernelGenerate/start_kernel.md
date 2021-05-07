@@ -1,6 +1,6 @@
 ---
 title: start_kernel
-date: 2021-05-07 11:27:30
+date: 2021-05-07 15:38:28
 categories: kernelGenerate
 tags: 
     - Linux 
@@ -8,27 +8,19 @@ tags:
     - CodeNotes
 ---
 
+[Code](https://github.com/guanglun/LinuxSoEasy/blob/master/init/main.c#L848)
 ```c
-asmlinkage __visible void __init start_kernel(void)
+asmlinkage __visible void __init __no_sanitize_address start_kernel(void)
 ```
-
-```
-* 顾名思义，内核启动函数
-
-```c
+start_kernelfcsad
 
 ```c
-
-```
 	char *command_line;
-	char *after_dashes;* command_line指针定义
-* after_dashes指针定义lockdep_init();
+	char *after_dashes;
+```
+asdasdasdasdasdsadasd
 ```c
 set_task_stack_end_magic(&init_task);
-```
-
-```c
-smp_setup_processor_id();
 ```
 
 ```c
