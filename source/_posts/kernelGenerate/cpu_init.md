@@ -1,6 +1,6 @@
 ---
 title: cpu_init
-date: 2021-05-08 18:02:35
+date: 2021-05-09 05:09:57
 categories: kernelGenerate
 ---
 

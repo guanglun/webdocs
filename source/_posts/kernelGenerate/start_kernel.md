@@ -1,6 +1,6 @@
 ---
 title: start_kernel
-date: 2021-05-08 18:02:35
+date: 2021-05-09 05:09:57
 categories: kernelGenerate
 ---
 
@@ -25,8 +25,6 @@ asdasdasdasdasdsadasd
 ```c
 set_task_stack_end_magic(&init_task);
 ```  
-
-* [查看set_task_stack_end_magic函数](http://www.guanglundz.com:8086/2021/05/08/kernelGenerate/set_task_stack_end_magic)  
 
 设置set_task_stack_end_magic(&init_task);
 

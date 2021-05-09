@@ -1,6 +1,6 @@
 ---
 title: set_task_stack_end_magic
-date: 2021-05-08 18:02:35
+date: 2021-05-09 05:09:57
 categories: kernelGenerate
 ---
 
@@ -12,4 +12,15 @@ void set_task_stack_end_magic(struct task_struct *tsk)
 ```  
 
   
+
+  
+```c
+stackend = end_of_stack(tsk);
+```  
+
+* [查看start_kernel函数](http://www.guanglundz.com:8086/2021/05/09/kernelGenerate/start_kernel)  
+
+* [查看start_kernel函数](http://www.guanglundz.com:8086/2021/05/09/kernelGenerate/start_kernel)  
+
+
 
