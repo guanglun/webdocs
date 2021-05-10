@@ -261,8 +261,8 @@ int main(int argc,char **argv)
 需要wiringBPI的库,不知道的可以参考这里
 https://www.cirmall.com/bbs/thread-40235-1-2.html
 
-![i](https://github.com/guanglun/Whac-a-BPI/blob/master/show1.png)
-![i](https://github.com/guanglun/Whac-a-BPI/blob/master/show2.png)
-![i](https://github.com/guanglun/Whac-a-BPI/blob/master/show3.png)
-![i](https://github.com/guanglun/Whac-a-BPI/blob/master/show4.png)
-![i](https://github.com/guanglun/Whac-a-BPI/blob/master/show5.png)
+![i](https://github.com/guanglun/Whac-a-BPI/blob/master/show1.jpg?raw=true)
+![i](https://github.com/guanglun/Whac-a-BPI/blob/master/show2.png?raw=true)
+![i](https://github.com/guanglun/Whac-a-BPI/blob/master/show3.png?raw=true)
+![i](https://github.com/guanglun/Whac-a-BPI/blob/master/show4.png?raw=true)
+![i](https://github.com/guanglun/Whac-a-BPI/blob/master/show5.png?raw=true)
