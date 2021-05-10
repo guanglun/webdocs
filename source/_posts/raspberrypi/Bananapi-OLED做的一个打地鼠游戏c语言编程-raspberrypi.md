@@ -25,6 +25,7 @@ tags:
 gcc game1.c -o game1 -lwiringPi
 ./game1
 ```
+![i](https://github.com/guanglun/Whac-a-BPI/blob/master/show3.jpg?raw=true)
 贴上主函数  
 
 ```c
