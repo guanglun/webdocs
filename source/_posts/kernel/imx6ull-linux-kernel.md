@@ -22,12 +22,14 @@ source ~/.bashrc
 
 ### 编译
 
-* 生成配置
+* 生成配置  
+
 ```
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- imx_xly_defconfig
 ```
 
-* 开始编译
+* 开始编译  
+
 ```
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- zImage -j12
 ```
