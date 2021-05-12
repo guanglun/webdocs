@@ -9,3 +9,5 @@ tags:
 ```
 arm-linux-gnueabihf-objdump -s -d arch/arm/kernel/head.o > arch/arm/kernel/head.o.txt
 ```
+
+对vmlinux反汇编的命令为：arm-linux-gnueabihf-objdump -dxh vmlinux > vmlinux.s
