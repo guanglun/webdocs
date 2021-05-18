@@ -1,7 +1,11 @@
 ---
 title: vscode阅读kernel使用的c_cpp_properties.json
 date: 2021-05-10 18:30:00
-tags:
+categories: Kernel
+tags: 
+    - Kernel
+    - Linux 
+    - Vscode 
 ---
 
 ```json
