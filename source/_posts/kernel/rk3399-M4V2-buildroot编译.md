@@ -18,3 +18,6 @@ sudo apt-get install gcc-arm-linux-gnueabihf u-boot-tools device-tree-compiler g
 ## _syscall0(int, gettid)报错
 [https://patchew.org/QEMU/20190320122555.8025-1-berrange@redhat.com/](https://patchew.org/QEMU/20190320122555.8025-1-berrange@redhat.com/)
 
+## SIOCGSTAMP报错
+[https://patchwork.kernel.org/project/qemu-devel/patch/20190617114005.24603-1-berrange@redhat.com/](https://patchwork.kernel.org/project/qemu-devel/patch/20190617114005.24603-1-berrange@redhat.com/)
+
