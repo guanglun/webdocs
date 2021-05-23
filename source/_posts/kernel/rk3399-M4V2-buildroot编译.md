@@ -6,10 +6,20 @@ tags:
     - Kernel
     - Linux 
 ---
+# buildroot编译生成镜像无法使用问题解决
 
+将repo最顶层目录的build.sh脚本文件的  
 ```
-sudo apt-get install gcc-arm-linux-gnueabihf u-boot-tools device-tree-compiler gcc-aarch64-linux-gnu mtools parted libudev-dev libusb-1.0-0-dev  autoconf autotools-dev libsigsegv2 m4 intltool libdrm-dev curl sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio python unzip rsync file bc wget libncurses5 libglib2.0-dev libgtk2.0-dev libglade2-dev cvs git mercurial rsync openssh-client subversion asciidoc w3m dblatex graphviz libssl-dev texinfo liblz4-tool genext2fs
+flash=mmc,1:rootfs:ext4:0x6000000,${ROOTFS_PARTITION_SIZE}:rootfs.img;
+flash=mmc,1:userdata:ext4:${USERDATA_PARTITION_ADDR},0x0:userdata.img;
 ```
+两行修改成如下两行  
+```
+flash=mmc,1:rootfs:ext4:0x6000000,0x80000000:rootfs.img;
+flash=mmc,1:userdata:ext4:0x86000000,0x0:userdata.img;
+```   
+
+
 
 # 编译报错处理
 ## debug_print ("SERVER: WaitingForBegin, read '%s'", line);报错
