@@ -1,7 +1,10 @@
 ---
 title: LinuxKernel以太网接收延迟问题
 date: 2021-06-03 10:32:47
-tags:
+categories: Kernel
+tags: 
+    - Kernel
+    - Linux 
 ---
 
 问归结到底，是以太网MAC外设的coalesce（合并）问题，下面引用一下IMX6ULL芯片手册对这功能的描述：
