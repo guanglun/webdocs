@@ -25,7 +25,23 @@ petalinux-config
 petalinux-config -c kernel
 petalinux-config -c rootfs
 petalinux-build
+petalinux-create -t apps --template install -n <app_name> --enable
 petalinux-package --boot --fsbl ./images/linux/zynq_fsbl.elf --fpga --u-boot --force
 cp images/linux/image.ub /mnt/hgfs/share/
 cp images/linux/BOOT.BIN /mnt/hgfs/share/
+```
+
+# 使用cpu1
+源于https://www.xilinx.com/support/documentation/sw_manuals/xilinx2017_1/ug1186-zynq-openamp-gsg.pdf page9  
+```
+echo cpu1.elf > /sys/class/remoteproc/remoteproc0/firmware
+echo start > /sys/class/remoteproc/remoteproc0/state
+modprobe rpmsg_user_dev_driver
+echo_test
+```
+```
+cp /mnt/hgfs/share/cpu1.elf project-spec/meta-user/recipes-apps/cpu1/files/cpu1.elf
+
+cp images/linux/BOOT.BIN /mnt/hgfs/share/
+cp images/linux/image.ub /mnt/hgfs/share/
 ```
