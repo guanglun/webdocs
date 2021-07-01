@@ -7,6 +7,21 @@ tags:
     - Linux 
 ---
 # buildroot编译生成镜像无法使用问题解决
+使用sudo命令制作镜像文件！！！
+```
+sudo ./build.sh sd-img
+```
+增大rootfs空间请在build.sh的`# fill size to parameter.txt and partmap.txt`前增加`IMG_SIZE=0x80000000`
+
+# 连接WIFI
+```
+scan:
+iw dev wlan0 scan | less
+config:
+wpa_passphrase WIFI_SSID 'my password' >> /etc/wpa_supplicant.conf
+wpa_supplicant -i wlan0 -B -c /etc/wpa_supplicant.conf
+```
+# 弃用方案：
 
 * 将repo最顶层目录的build.sh脚本文件的  
 
