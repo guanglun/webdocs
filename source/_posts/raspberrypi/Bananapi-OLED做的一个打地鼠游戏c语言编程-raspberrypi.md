@@ -1,7 +1,7 @@
 ---
 title: Bananapi+OLED做的一个打地鼠游戏c语言编程(raspberrypi)
 date: 2021-05-10 10:05:59
-categories: Raspberrypi
+categories: raspberrypi
 tags: 
     - raspberrypi 
 ---

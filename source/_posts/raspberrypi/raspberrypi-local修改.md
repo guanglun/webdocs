@@ -1,7 +1,7 @@
 ---
 title: raspberrypi.local修改
 date: 2021-04-25 11:49:03
-categories: Raspberrypi
+categories: raspberrypi
 tags: 
     - raspberrypi 
 ---

@@ -1,7 +1,7 @@
 ---
 title: rpi4使能串口终端
 date: 2021-06-04 12:27:17
-categories: Raspberrypi
+categories: raspberrypi
 tags: 
     - raspberrypi 
 ---
